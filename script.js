@@ -8,6 +8,7 @@ runAnimation();
 
 //Reset
 function resetDom() {
+  counter.classList.add("show");
   counter.classList.remove("hide");
   finalMessage.classList.remove("show");
 
