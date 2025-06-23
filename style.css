@@ -29,7 +29,12 @@ h4 {
   transform: translate(-50%, -50%) scale(0);
   animation: hide 0.2s ease-out;
 }
-
+.counter {
+  display: none;
+}
+.counter.show {
+  display: block;
+}
 .final {
   position: fixed;
   top: 50%;
